@@ -1,0 +1,42 @@
+.fondo {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    color: rgb(211, 23, 23);
+
+}
+div{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+
+}
+.boton1{
+    width: 100px;
+    height: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline:none;
+    color: rgb(9, 22, 22);
+    background-color:azure;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 8px;
+    margin-right: 10px;
+
+}
