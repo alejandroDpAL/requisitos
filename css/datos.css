@@ -4,32 +4,13 @@
     background-size: cover;
     background-attachment: fixed;
 }
-img{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    size: cover;
-    margin-left: 480px;
-    margin: 0 auto;
-}
 h1{
-    color: aliceblue;
+    color:rgb(255, 251, 251);
 }
 h2{
-    color: rgb(211, 23, 23);
-
-}
-div{
     color: aliceblue;
 }
-p{
-    color: aliceblue;
-}
-a{
-    text-decoration: none;
-
-}
-.boton1{
+.boton6{
     width: 100px;
     height: 30px;
     list-style: none;

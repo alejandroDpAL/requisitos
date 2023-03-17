@@ -1,0 +1,7 @@
+
+.fondo2 {
+    background-image: url(datos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
