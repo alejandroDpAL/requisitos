@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(58, 168, 132);
+    color: azure;
+    border: none;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    color: white
+    border: none;
+}
+h4{
+    display: inline-block;     
+    color: aliceblue;
+                                  
+}
