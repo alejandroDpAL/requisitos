@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localstorage</title>
+    <script defer src="js/localstorage.js"></script>
+    <link rel="stylesheet" href="css/localstorage.css">
+</head>
+<body>
+    <i><h1>Localstorage.</h1></i>
+    <input type="text" id="nombre" placeholder="Nombre"><br><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br><br>
+    <input type="text" id="direccion" placeholder="Direccion"><br><br>
+    <input type="date" id="fecha" placeholder="Fecha"><br><br>
+
+    <button onclick="almacenarData()"><b>Guardar</b></button>
+    <hr>
+    <p>Nombre almacenado: <j id="datoNombre"></j></p>
+    <p>Apellido almacenado: <j id="datoApellido"></j></p>
+    <p>Direccion almacenada: <j id="datoDireccion"></j></p>
+    <p>fecha almacenada: <j id="datoFecha"></j></p>
+    <p>
+        <button onclick="cargarData()">Cargar elementos</button>
+    </p>
+<button><a href="fichatecnica.html" target="_blank" >continuar</a></button>
+</body>
+</html>

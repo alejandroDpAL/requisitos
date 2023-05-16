@@ -9,51 +9,87 @@
     <script src="./js/fichatecnica.js"></script>
 </head>
 <body>
-    <center>
-    <h1>FORMATO DE FICHA TECNICA</h1>
-    <h3>Caracteristicas del producto</h3>
-    <p>
-        <h4>Nombre del Producto:</h4>
-        <br>
-       <input type="text" id="nom_producto" placeholder="Nombre del Producto">
-    </p>
+<h1>FORMATO DE FICHA TECNICA</h1>
+<h3>Caracteristicas del producto</h3>
 <p>
-    <h4> Linea de produccion:</h4>
-    <br>
-    <input type="text" id="linea" placeholder="Nombre del cliente">
-</p>
-<p>
-    <h4> Versiones anteriores:</h4>
-    <br>
-    <input type="text" id="versiones" placeholder="Nombre del producto">
-</p>
-<p>
-    <h4>versiones actuales</h4>
-    <br>
-    <input type="text" id="actuales" placeholder="Nombre del producto">
-</p>
-<p>
-    <h4>Modulo</h4>
-    <br>
-    <input type="text" id="modulo" placeholder="modulo">
-</p>
-<p>
-    <center><button onclick="getFicha()">Enviar</button></center>
- </p>
-    <p id="resproducto" ></p>
-    <p id="resproduct" ></p>
-    <p id="resproduc" ></p>
-    <p id="resver"></p>
-    <p id="resmo"></p>
-    </p>
+<h4>Nombre del Producto:</h4><br><br>
+<input type="text" id="nom_producto" placeholder="Nombre del Producto">
+   </p>
+   <p>
+      <h4> Linea de produccion:</h4><br><br>
+      <input type="text" id="linea" placeholder="Nombre del cliente">
+   </p>
+   <p>
+      <h4> Versiones Anteriores:</h4><br><br>
+   <input type="text" id="versiones" placeholder="Numero de Producto">
+   </p>
+   <p>
+      <h4> Version Actual:</h4><br><br>
+   <input type="text" id="version" placeholder="Numero de Producto">
+   </p> 
+   <p>
+      <h4> Descripcion general:</h4><br><br>
+   <input type="text" id="descripcion" placeholder="Descripcion General">
+   </p>
+   <p>
+      <h4> Descripcion:</h4><br><br>
+   <input type="text" id="descripciones" placeholder="Tipo de Arquitectura">
+   </p>
+   <p>
+      <h4> Hadware:</h4><br><br>
+   <input type="text" id="productor" placeholder="Requerimiento físico">
+   </p>
+   <p>
+      <h4> Software:</h4><br><br>
+   <input type="text" id="producto" placeholder="Requerimiento lógico">
+   </p>
+   <p>
+      <h4> Otro:</h4><br><br>
+   <input type="text" id="otro" placeholder="Recomendaciones sistema">
+   </p>
+   <p>
+      <h4> Requerimientos funcionales generales:</h4><br><br>
+   <input type="text" id="requerimiento" placeholder="Requerimiento sistema">
+   </p>
+   <h4> Requerimientos adicionales:</h4><br><br>
+   <input type="text" id="requerimientos" placeholder="Funciones adicionales">
+   </p>
+   <p>
+      <h4> Cliente de producto:</h4><br><br>
+   <input type="text" id="cliente" placeholder="Caracteristicas cliente">
+   </p>
 
-        
+   <p><button onclick="getFicha()">Enviar</button><br><br></p>
+   <p><button onclick="getcargar()">Guardar datos</button><br><br></p>
+   <button><a href="ficha2.html" target="_blank" >continuar</a></button>
 
-    
 
-    
-</center>
-<body>
-    
+   <p id="resproduct"></p>
+   <p id="reslinea" ></p>
+   <p id="resanterior" ></p>
+   <p id="resactual"></p>
+   <p id="resmodulo"></p>
+   <p id="resdescripcion"></p>
+   <p id="resdescripciones"></p>
+   <p id="resproductor"></p>
+   <p id="resproducto"></p>
+   <p id="resotro"></p>
+   <p id="resrequerimiento"></p>
+   <p id="resrequerimientos"></p>
+   <p id="rescliente"></p>
+   <a href="index.html">Inicio</a>
+
+   <p>Nombre del producto: <j id="dato1"></j></p>
+   <p>Linea de produccion: <j id="dato2"></j></p>
+   <p>Versiones anteriores: <j id="dato3"></j></p>
+   <p>Versiones actuales: <j id="dato4"></j></p>
+   <p>Descripcion general: <j id="dat05"></j></p>
+   <p>Descripcion: <j id="dato6"></j></p>
+   <p>Hadware: <j id="dato7"></j></p>
+   <p>Software: <j id="dato8"></j></p>
+   <p>Otro: <j id="dat9"></j></p>
+   <p>Requerimientos funcionales generales: <j id="dato10"></j></p>
+   <p>Requerimientos adicionales: <j id="dato11"></j></p>
+   <p>Cliente de producto: <j id="dato12"></j></p>
 </body>
 </html>

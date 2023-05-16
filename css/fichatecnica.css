@@ -1,23 +1,37 @@
 body{
-    background-image: url(../img/fondo.jpg);
-    color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    font-family: sans-serif;
 }
 h1{
     text-align: center;
 }
 button{
-    background-color: rgb(58, 168, 132);
-    color: azure;
-    border: none;
+    text-decoration: none;
+    background-color: rgb(255, 7, 7);
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border-color: crimson;
+}
+button:hover {
+    cursor: pointer;
 }
 input{
     background-color: rgb(255, 255, 255);
-    color: white
+    color: black;
     border: none;
 }
 h4{
-    display: inline-block;     
-    color: aliceblue;
-                                  
+    display: inline-block;                                  
+}
+a{
+    text-decoration: none;
+    background-color: rgb(231, 4, 4);
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+    padding: 7px 20px;
+    border-radius: 10px;
 }
