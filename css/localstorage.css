@@ -1,6 +1,11 @@
 body {
     background: linear-gradient(rgb(236, 237, 240), rgb(207, 232, 247));
     text-align: center;
+<<<<<<< HEAD
 
 height: 95vh;
+=======
+width: 100%;
+height: 100vh;
+>>>>>>> eef48f29dd8ec2a97b1bcb54d3e3c75eb5d95a96
 }
