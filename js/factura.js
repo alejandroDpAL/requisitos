@@ -45,6 +45,6 @@ function Factura() {
     
     vt3 = vt1+vt2
     document.getElementById("Valor-factura9").innerHTML = "<div>Total "+ vt3 +"</div>" 
-
+    
 }
 

@@ -6,54 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ficha tecnica</title>
     <link rel="stylesheet" href="css/fichatecnica.css">
-    <script src="./js/fichatecnica.js"></script>
+    <script defer src="./js/ficha0.js"></script>
+    <script src="js/ficha1.js"></script>
 </head>
 <body>
-    <center>
-    <h1>FORMATO DE FICHA TECNICA</h1>
-    <h3>Caracteristicas del producto</h3>
-    <p>
-        <h4>Nombre del Producto:</h4>
-        <br>
-       <input type="text" id="nom_producto" placeholder="Nombre del Producto">
-    </p>
-<p>
-    <h4> Linea de produccion:</h4>
-    <br>
-    <input type="text" id="linea" placeholder="Nombre del cliente">
-</p>
-<p>
-    <h4> Versiones anteriores:</h4>
-    <br>
-    <input type="text" id="versiones" placeholder="Nombre del producto">
-</p>
-<p>
-    <h4>versiones actuales</h4>
-    <br>
-    <input type="text" id="actuales" placeholder="Nombre del producto">
-</p>
-<p>
-    <h4>Modulo</h4>
-    <br>
-    <input type="text" id="modulo" placeholder="modulo">
-</p>
-<p>
-    <center><button onclick="getFicha()">Enviar</button></center>
- </p>
-    <p id="resproducto" ></p>
-    <p id="resproduct" ></p>
-    <p id="resproduc" ></p>
-    <p id="resver"></p>
-    <p id="resmo"></p>
-    </p>
+   <h1>FORMATO DE FICHA TECNICA</h1>
+   <h3>Caracteristicas del producto</h3>
 
-        
+<h4>Nombre del Producto:</h4><br>
+   <input type="text" id="nom_producto" placeholder="Nombre del Producto"><br><br>
+   <input type="text" id="linea" placeholder="Linea de producción"><br><br>
+   <input type="text" id="versiones" placeholder="Versiones Anteriores"><br><br>
+   <input type="text" id="version" placeholder="Version Actual"><br><br>
+   <input type="text" id="modulo" placeholder="Modulo"><br><br>
 
-    
+   <h4> Descripcion general del producto:</h4><br>
+<input type="text" id="descripcion" placeholder="Descripcion General"><br><br>
+   <input type="text" id="descripciones" placeholder="Objetivo del producto"><br><br>
+<h4> Arquitectura: </h4><br>
+   <input type="text" id="productor" placeholder="Descripcion del producto"><br><br>
 
-    
-</center>
-<body>
-    
+   <h4> Requerimiento del producto:</h4><br>
+   <input type="text" id="producto" placeholder="Requerimiento fisicos"><br><br>
+   <input type="text" id="otro" placeholder="Requerimientos lógicos"><br><br>
+   <input type="text" id="requerimiento" placeholder="Recomendaciones"><br><br>
+
+<h4> Requisitos del producto(cliente):</h4><br>
+   <input type="text" id="requerimientos" placeholder="Requerimientos físicos min"><br><br>
+   <input type="text" id="cliente" placeholder="Requerimientos lógicos nec"><br><br>
+   <input type="text" id="recomendaciones" placeholder="Recomendaciones"><br><br>
+
+<h4>Requerimientos:</h4><br>
+<input type="text" id="funcion" placeholder="funciones del sistemas"><br><br>
+<input type="text" id="funcionales" placeholder="funcionalidades del sistema"><br><br>
+<input type="text" id="caracteristicas" placeholder="caracteristicas del producto"><br><br>
+<button onclick="getFicha()"><a href="ficha2.html" target="_blank" >Guardar</a></button><br><br></p>
+<button onclick="clearlocalstorage()">limpiar</button>
+
 </body>
 </html>

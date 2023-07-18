@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(white, rgb(172, 172, 172),white);
+}
+div{
+    text-align: center;
+    background-color: rgb(29, 121, 201);
+}
+a{
+    text-decoration: none;
+    background-color: rgb(231, 4, 4);
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
