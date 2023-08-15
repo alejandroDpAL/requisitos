@@ -1,6 +1,14 @@
 body{
     text-align: center;
+<<<<<<< HEAD
     background: linear-gradient(white, rgb(172, 172, 172),white);
+=======
+<<<<<<< HEAD
+    background: linear-gradient(white, rgb(172, 172, 172),white);
+=======
+    background-color: #ffffff;
+>>>>>>> eef48f29dd8ec2a97b1bcb54d3e3c75eb5d95a96
+>>>>>>> 31ad9601f0896731d0e3fbe41463fdaab0e210b2
     color: black;
     font-family: sans-serif;
 }

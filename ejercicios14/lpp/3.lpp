@@ -1,0 +1,14 @@
+
+3. Escribe un programa que pregunte al usuario su altura aproximada, sus iniciales y conteste
+diciendo: “Sus iniciales son: A.J.R. y su altura 1.34 (por ejemplo)”.
+
+cadena[30] inicial,altura
+inicio
+escriba " Dijite sus iniciales "
+lea inicial
+llamar nueva_linea
+escriba " dijita tu altura "
+lea altura
+llamar nueva_linea
+escriba " Tus iniciales son: ",inicial," y tu altura es de:",altura
+fin

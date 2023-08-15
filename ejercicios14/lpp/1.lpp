@@ -1,0 +1,8 @@
+//Escribe un programa que pida un número entero, y conteste al usuario: “Has introducido el número (x), gracias”. X debe ser el numero introducido.
+
+entero numero
+inicio
+	escriba "ingrese numero "
+	lea numero
+	escriba " el numero ingresado es ",numero
+fin

@@ -1,0 +1,11 @@
+
+2. Escribe un programa que pregunte al usuario cuántos años tiene, y conteste al usuario:
+“Ahora sé que tienes (x) años, gracias”. X es la cantidad de años ingresada por el teclado.
+
+entero numero
+inicio
+escriba " cuantos años tienes "
+lea numero
+llamar nueva_linea
+escriba " ahora ya se que tienes " ,numero," años, gracias"
+fin 

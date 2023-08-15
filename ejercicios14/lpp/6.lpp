@@ -1,0 +1,11 @@
+6. Suponiendo que 1 euro = 4444 pesos. Escribe un programa que pida al usuario un número
+de pesos y calcule el cambio en euros.
+
+entero euro,pesos
+inicio
+escriba " ingrese numero de pesos "
+lea pesos
+euro<-(pesos*4444)
+llamar nueva_linea
+escriba " su dinero en EUROS es de ",euro
+fin

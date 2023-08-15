@@ -1,0 +1,31 @@
+10. Escribir un programa que pida por teclado los tres coeficientes (a, b y c) de la ecuaci�n ax 2
++bx+c=0 y calcule las dos soluciones suponiendo que ambas ser�n reales (es decir que la ra�z
+queda positiva). Nota: x1,2=(a�raiz(b2 -4ac))/2, sqrt es una funci�n que devuelve la ra�z
+cuadrada.
+
+Para hallar la ra�z de un n�mero en LPP: Numero ^(1/2). Ejemplo. la ra�z cuadrada de nueve
+ser�a: 9^(1/2).
+
+
+entero a,b,c
+real disc,x1,x2
+inicio
+escriba "escriba el valor a,b,c de la ecuacion a cero "
+llamar nueva_linea
+escriba "valor a "
+lea a
+escriba "valor b "
+lea b
+escriba "valor c"
+lea c
+disc <- b*2-4*a*c
+si (disc >- 0) entonces
+x1<- (-1*b+(b^2-4*a*c)^(1/2))/(1*a)
+x2 <- (-1*b-(b^2-4*a*c)^(1/2))/(2*a)
+escriba "x1 -",x1
+llamar nueva_linea
+escriba "x2 -",x2
+sino
+escriba "la funcion cuadratica tiene un valor "
+fin si
+fin

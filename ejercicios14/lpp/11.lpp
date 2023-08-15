@@ -1,0 +1,15 @@
+
+11. Escribir un programa que pida por teclado dos resistencias y calcule y presente la resistencia
+equivalente en paralelo (Req=(R1*R2)/(R1+R2)).
+
+real re1, re2, Req
+inicio 
+escriba " ingrese primera resistencia"
+lea re1
+llamar nueva_linea
+escriba " ingrese segunda resistencia "
+lea re2
+Req <- (re1*re2)/(re1+re2)
+llamar nueva_linea
+escriba " la resistencia equivalente en paralelo es: " ,Req
+fin 

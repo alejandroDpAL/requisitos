@@ -1,0 +1,17 @@
+5. Escribe un programa que pregunte al usuario los dos lados de un rectángulo y presente por
+pantalla el cálculo del perímetro (suma de los lados) y el área (base por altura).
+
+entero lado1,lado2,altura1,altura2,total1
+inicio
+escriba " ingrese primer dato "
+lea lado1
+escriba " ingrese segundo dato "
+lea lado2
+total1<-(lado1+lado2)+(altura1*altura2)
+llamar nueva_linea
+escriba " ingrese primera altura "
+lea altura1
+escriba " ingrese segunda altura "
+lea altura2
+escriba "el perimetro es ",total1
+fin
