@@ -1,0 +1,9 @@
+real hora,plata
+inicio
+escriba "ingrese tiempo que estuvo el vehiculo"
+lea hora
+llamar nueva_linea
+plata <- (hora * 1500)
+escriba " ust debe pagar",plata
+escriba " por el tiempo de uso"
+fin

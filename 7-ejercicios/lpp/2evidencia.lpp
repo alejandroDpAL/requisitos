@@ -1,0 +1,19 @@
+Entero num1, num2, num3, menor
+Inicio
+Escriba "Ingrese el primer numero entero: "
+Lea num1
+Escriba "Ingrese el segundo numero entero: "
+Lea num2
+Escriba "Ingrese el tercer numero entero: "
+Lea num3
+Si num1 < menor Entonces
+menor <- num1  
+Fin Si
+Si num2 < menor Entonces
+menor <- num2
+Fin Si
+Si num3 < menor Entonces
+menor <- num3
+Fin Si
+Escriba "El numero entero menor es: ", menor
+Fin

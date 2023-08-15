@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>celulares rapidos y poderosos </title>
+</head>
+<body>
+
+<h2>elige el de tu preferencia.</h2>
+
+<form id="ventaForm"><br>
+  <label for="marca">Marca:</label>
+  <select id="marca" name="marca">
+    <option value="samsung">Samsung</option>
+    <option value="motorola">Motorola</option>
+    <option value="huawei">Huawei</option>
+  </select><br><br>
+  
+  <label for="cantidad">Cantidad:</label><br>
+  <input type="number" id="cantidad" name="cantidad" min="1" required><br><br>
+  
+  <input type="submit" value="Registrar Venta">
+</form>
+
+<h3>registro</h3>
+<p id="resultados"></p>
+
+<script>
+document.getElementById("ventaForm").addEventListener("submit", function(event) {
+  event.preventDefault();
+  
+  var marca = document.getElementById("marca").value;
+  var cantidad = parseInt(document.getElementById("cantidad").value);
+  
+  if (cantidad <= 0) {
+    mostrarError("La cantidad debe ser mayor a cero.");
+    return;
+  }
+  
+  var precios = {
+    samsung: 600000,
+    motorola: 500000,
+    huawei: 550000
+  };
+  
+  if (precios.hasOwnProperty(marca)) {
+    var precioUnitario = precios[marca];
+    
+    var totalVenta = cantidad * precioUnitario;
+    var descuento = cantidad >= 10 ? totalVenta * 0.05 : 0;
+    var precioConDescuento = totalVenta - descuento;
+    
+    var marcaNombre = obtenerNombreMarca(marca);
+    
+    var resultado = "Marca: " + marcaNombre + "<br>" +
+                    "Cantidad Vendida: " + cantidad + "<br>" +
+                    "Valor Unitario: $" + precioUnitario.toLocaleString() + "<br>" +
+                    "Total Venta: $" + totalVenta.toLocaleString() + "<br>";
+    
+    if (descuento > 0) {
+      resultado += "Descuento (5%): $" + descuento.toLocaleString() + "<br>";
+      resultado += "Precio con Descuento: $" + precioConDescuento.toLocaleString() + "<br>";
+    }
+    
+    document.getElementById("resultados").innerHTML += resultado + "<br>";
+  }
+});
+
+function obtenerNombreMarca(marca) {
+  switch (marca) {
+    case "samsung":
+      return "Samsung";
+    case "motorola":
+      return "Motorola";
+    case "huawei":
+      return "Huawei";
+    default:
+      return "Desconocida";
+  }
+}
+
+function mostrarError(mensaje) {
+  document.getElementById("resultados").innerHTML += "<p style='color: red;'>" + mensaje + "</p><br>";
+}
+</script>
+
+</body>
+</html>
+
+

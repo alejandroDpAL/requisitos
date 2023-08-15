@@ -1,0 +1,19 @@
+1. Leer dos números, determinar cuál es el mayor de los dos y mostrar ese número en pantalla
+con el mensaje “Es el número mayor”.
+
+Entero numA, numB
+Inicio
+   Escriba "Ingrese dos numeros enteros "
+   llamar nueva_linea
+   Escriba "Escriba el numero "
+   lea numA
+   llamar nueva_linea
+   Escriba "Escriba el numero "
+   lea numB
+   Si numA > numB entonces
+   escriba "El numero mayor es ", numA
+   sino
+   escriba "el numero mayor es ", numB
+   Fin si
+  Fin si
+Fin

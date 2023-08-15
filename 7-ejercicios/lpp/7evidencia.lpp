@@ -1,0 +1,22 @@
+
+    real sueldo, descuento, sueldoTotal 
+inicio
+    escriba " Ingrese el sueldo inicial del trabajador: "
+    lea sueldo
+
+    si sueldo <= 500000 entonces
+        descuento <- sueldo * 0.12
+    sino si sueldo <= 1000000  entonces
+        descuento <- sueldo * 0.15
+    sino
+        descuento <- sueldo * 0.18
+    fin si
+    fin si
+
+    sueldoTotal <- sueldo - descuento
+
+    escriba "El descuento aplicado es:", descuento
+    llamar nueva_linea
+    escriba "El sueldo total que recibe el trabajador es:", sueldoTotal
+ 
+fin

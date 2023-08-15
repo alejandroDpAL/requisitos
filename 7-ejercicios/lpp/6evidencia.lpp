@@ -1,0 +1,15 @@
+entero horasT,sueldoB,horasB,sueldoS,horasE
+inicio
+	escriba " ingrese las horas trabajadas "
+	lea horasT
+	sueldoB <- 20
+	horasB <- 40
+	si horasT <= horasB entonces
+	sueldoS <- horasT*sueldoB
+	sino
+	horasE <- horasT-horasB
+	sueldoS <- (horasB*sueldoB)+(horasE*25)
+	fin si
+	llamar nueva_linea
+	escriba " el sueldo semanal es de ",sueldoS
+fin

@@ -1,0 +1,17 @@
+cadena [10]turno
+entero pagoDiurno,pagoNocturno,horas
+inicio
+	escriba " tu turno es Diurno o Nocturno? "
+	lea turno
+	llamar nueva_linea
+	escriba " cuanto tiempo trabajaste "
+	lea horas
+	pagoDiurno <- horas*10
+	pagoNocturno <- horas*15
+	si turno = "Diurno" entonces
+	escriba " el valor de tu pago es: ",pagoDiurno
+	fin si
+	si turno = "Nocturno" entonces
+	escriba " el valor de tu pago es: ",pagoNocturno
+	fin si
+fin

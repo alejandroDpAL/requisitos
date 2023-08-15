@@ -1,0 +1,17 @@
+entero Nota1, Nota2, Nota3, promedio
+
+inicio
+	Escriba "Escriba sus 3 calificaciones"
+	llamar nueva_linea
+	lea Nota1
+	llamar nueva_linea
+	lea Nota2
+	llamar nueva_linea
+	lea Nota3
+promedio <- (Nota1+Nota2+Nota3)/3
+si promedio >69 entonces
+	escriba "Usted APROBO su calificacion final es de ",promedio
+	sino
+	escriba " Usted NO APROBO y su calificacion es de ",promedio
+	fin si
+fin

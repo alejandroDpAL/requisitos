@@ -1,0 +1,19 @@
+entero n1,n2
+inicio
+escriba "ingresre dos numeros"
+llamar nueva_linea
+escriba "ingrese el numero A"
+lea n1
+llamar nueva_linea
+escriba " ingrese el numero B"
+lea n2
+si n1 > n2 entonces
+escriba " el numero Mayor es ",n1
+sino	
+si n1 = n2 entonces
+escriba " los numeros son iguales"
+sino 	
+escriba " el numero mayor es ",n2
+fin si 
+fin si
+fin

@@ -1,0 +1,13 @@
+entero edad
+inicio 
+escriba "ingrese su edad "
+	lea edad
+		llamar nueva_linea
+			si edad > 17 entonces
+			escriba "su edad es de:",edad
+			 escriba " años ust es MAYOR de edad"
+			sino
+			escriba " su edad es de:",edad 
+			escriba " años ust es MENOR de edad"
+			fin si
+fin
